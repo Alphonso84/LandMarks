@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		D05FB6672341574F00B23C75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05FB6662341574F00B23C75 /* AppDelegate.swift */; };
 		D05FB6692341574F00B23C75 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05FB6682341574F00B23C75 /* SceneDelegate.swift */; };
-		D05FB66B2341574F00B23C75 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05FB66A2341574F00B23C75 /* ContentView.swift */; };
+		D05FB66B2341574F00B23C75 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05FB66A2341574F00B23C75 /* LandmarkDetail.swift */; };
 		D05FB66D2341575700B23C75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D05FB66C2341575700B23C75 /* Assets.xcassets */; };
 		D05FB6702341575700B23C75 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D05FB66F2341575700B23C75 /* Preview Assets.xcassets */; };
 		D05FB6732341575700B23C75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D05FB6712341575700B23C75 /* LaunchScreen.storyboard */; };
@@ -38,7 +38,7 @@
 		D05FB6632341574F00B23C75 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D05FB6662341574F00B23C75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D05FB6682341574F00B23C75 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D05FB66A2341574F00B23C75 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D05FB66A2341574F00B23C75 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		D05FB66C2341575700B23C75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D05FB66F2341575700B23C75 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D05FB6722341575700B23C75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 				D0ED989F23417B0B0016CD2B /* Models */,
 				D05FB6662341574F00B23C75 /* AppDelegate.swift */,
 				D05FB6682341574F00B23C75 /* SceneDelegate.swift */,
-				D05FB66A2341574F00B23C75 /* ContentView.swift */,
+				D05FB66A2341574F00B23C75 /* LandmarkDetail.swift */,
 				D0ED98BF23417F480016CD2B /* LandmarkRow.swift */,
 				D0ED98C1234193500016CD2B /* LandmarkList.swift */,
 				D05FB67A2341616B00B23C75 /* CircleImage.swift */,
@@ -240,7 +240,7 @@
 				D0ED989E234166010016CD2B /* MapView.swift in Sources */,
 				D05FB6692341574F00B23C75 /* SceneDelegate.swift in Sources */,
 				D0ED98C023417F480016CD2B /* LandmarkRow.swift in Sources */,
-				D05FB66B2341574F00B23C75 /* ContentView.swift in Sources */,
+				D05FB66B2341574F00B23C75 /* LandmarkDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
